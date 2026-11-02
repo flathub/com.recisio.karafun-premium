@@ -26,8 +26,8 @@ modules:
       - install -Dm644 main/resources/karafun-premium-512.png /app/share/icons/hicolor/512x512/apps/com.recisio.karafun-premium.png
     sources:
       - type: archive
-        url: https:/rec-eu.s3.amazonaws.com/KaraFun-linux-x64-3.13.0.148.zip
-        sha256: cfb14d2905d7c30859688cd2b7c5f0da253863f1177a932fc01dbf38dffd3f6a
+        url: https://rec-eu.s3.amazonaws.com/KaraFun-linux-x64-3.14.0.157.zip
+        sha256: 9fffcbf95e850cf042ba3efc2f9a3d1eb9a37526cab4bf1fc4fcaaa7ac1ef452
         dest: main
         only-arches: [x86_64]
       - type: script
